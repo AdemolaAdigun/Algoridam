@@ -14,7 +14,7 @@ interface FooterNavProps {
 const FooterSection = ({ items }: FooterNavProps) => {
     return (
         <div className='container mt-16 block min-h-[100dvh] w-full flex-col pt-80 md:flex md:py-12'>
-            <div className='my-36 hidden min-h-[400px] flex-col items-center justify-center bg-accent md:flex'>
+            <div className='my-36 hidden min-h-[400px] flex-col items-center justify-center md:flex'>
                 <h1 className='text-center text-3xl font-bold'>Have an idea? Let us get your <br /> project started today!</h1>
                 <Button className='mt-10 max-w-[200px]'>Get in touch</Button>
             </div>
